@@ -80,3 +80,21 @@ h2 {
 .about {
   font-family: 'exomedium', sans-serif;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'exomedium', sans-serif;
+}
+
+h2 span {
+  color: #cccccc;
+}
+
+::selection {
+  background-color: #f84342;
+}
